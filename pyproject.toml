@@ -21,4 +21,6 @@ package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
+ruff = "^0.9.3"
+blue = "^0.9.1"
 
