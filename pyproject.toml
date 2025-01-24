@@ -1,0 +1,20 @@
+[project]
+name = "caesar-cipher"
+version = "0.1.0"
+description = "A simple implementation of Caesar's Cipher"
+authors = [
+    {name = "Kaio Rocha",email = "kaiodtr@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
