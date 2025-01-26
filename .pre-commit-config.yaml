@@ -6,8 +6,18 @@ repos:
         entry: poetry run blue --check .
         language: system
         types: [python]
+        stages: [pre-commit]
+
       - id: ruff
         name: ruff
         entry: poetry run ruff check .
         language: system
         types: [python]
+        stages: [pre-commit]
+
+      - id: gitlint
+        name: gitlint
+        entry: poetry run gitlint --msg-filename
+        language: system
+        stages: [commit-msg]
+        pass_filenames: true
