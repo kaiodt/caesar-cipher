@@ -9,6 +9,7 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gitlint (>=0.19.1,<0.20.0)"
 ]
 
 
